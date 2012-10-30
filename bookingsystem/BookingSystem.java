@@ -9,8 +9,10 @@ public class BookingSystem {
     throw new UnsupportedOperationException();
   }
 
-  /** Get all tickets available for a particular flight. */
-  public Set<Ticket> getAvailableTicketsForFlight(String flightCode) {
+  /** Get tickets for a particular flight.
+
+   @param availableOnly If true, return only available tickets. */
+  public Set<Ticket> getTicketsForFlight(String flightCode, boolean availableOnly) {
     // TODO: Implement.
     throw new UnsupportedOperationException();
   }
@@ -23,4 +25,3 @@ public class BookingSystem {
     throw new UnsupportedOperationException();
   }
 }
-
